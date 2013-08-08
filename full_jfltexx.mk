@@ -27,6 +27,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jfltetmo device
 $(call inherit-product, device/samsung/jfltexx/device.mk)
 
+
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=jfltexx TARGET_DEVICE=jflte BUILD_FINGERPRINT="samsung/jfltexx/jflte:4.2.2/JDQ39/I9505XXUAMDE:user/release-keys" PRIVATE_BUILD_DESC="jfltexx-user 4.2.2 JDQ39 I9505XXUAMDE release-keys"
+
 # Set those variables here to overwrite the inherited values.
 PRODUCT_NAME := full_jfltexx
 PRODUCT_DEVICE := jfltexx
