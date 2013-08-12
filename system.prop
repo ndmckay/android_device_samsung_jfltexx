@@ -5,5 +5,10 @@
 rild.libargs=-d /dev/smd0
 
 
+# telephony
 telephony.lteOnGsmDevice=1
 ro.telephony.default_network=9
+
+
+# temp fix for dalvik-cache
+dalvik.vm.dexopt-data-only=1
